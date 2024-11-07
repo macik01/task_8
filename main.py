@@ -21,4 +21,13 @@ print("ОК")'''
 print(find_unique_value([1, 1, 2, 1, 1]))  
 print(find_unique_value([0, 0, 0, 0, 3]))
 print(find_unique_value([5, 4, 5, 5, 5]))'''
-
+#9.1
+'''def popular_words(text, words):
+    text_words = text.lower().split()
+    word_count = {word: text_words.count(word) for word in words}
+    return word_count'''
+#9.2
+def difference(*args):
+    if not args:
+        return 0
+    return round(max(args) - min(args), 2)
