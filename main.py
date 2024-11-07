@@ -20,5 +20,5 @@ print("ОК")'''
             return num
 print(find_unique_value([1, 1, 2, 1, 1]))  
 print(find_unique_value([0, 0, 0, 0, 3]))
-print(find_unique_value([5, 4, 5, 5, 5]))''
+print(find_unique_value([5, 4, 5, 5, 5]))'''
 
